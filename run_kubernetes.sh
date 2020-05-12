@@ -17,7 +17,7 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl expose deployment app --type=LoadBalancer --port=8000 --target-port=80
+kubectl expose deployment app --type=LoadBalancer --port=8080 --target-port=80
 
 # Step 5:
 # Log pod name
