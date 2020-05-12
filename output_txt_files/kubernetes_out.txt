@@ -1,9 +1,6 @@
-(.devops) vocstartsoft:~/environment/Cloud-DevOps (master) $ ./run_kubernetes.sh
-kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
-Error from server (AlreadyExists): deployments.apps "app" already exists
-NAME                   READY   STATUS    RESTARTS   AGE
-app                    1/1     Running   1          21m
-app-6bcdd94bf8-nw48g   1/1     Running   1          21m
-Forwarding from 127.0.0.1:8080 -> 80
-Forwarding from [::1]:8080 -> 80
-Handling connection for 8080
+Port: 8080
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
